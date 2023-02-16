@@ -2,7 +2,8 @@ name: my first workflow demo
 
 on:
   push:
-    branches: [ main ]
+    branches: 
+    -  'main'
     paths-ignore: [.github/**]
   pull_request:
     branches: [ main ]

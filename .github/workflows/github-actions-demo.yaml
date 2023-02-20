@@ -3,7 +3,7 @@ name: my first workflow demo
 on:
   push:
     branches: 
-      - 'dev'
+      - dev
     paths-ignore: [.github/**]
   schedule:
     - cron: '15 6 * * 0'
